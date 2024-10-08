@@ -6,7 +6,7 @@
         {
             Title = title;
             Description = description;
-            CreatedAt = DateTime.Now;
+            CreatedAt = DateTime.UtcNow;
         }
         public Guid Id { get; init; }
 
